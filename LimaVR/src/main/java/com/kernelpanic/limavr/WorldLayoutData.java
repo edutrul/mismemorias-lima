@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.vrtoolkit.cardboard.samples.treasurehunt;
+package com.kernelpanic.limavr;
 
 /**
  * Created by cjr on 6/18/14.

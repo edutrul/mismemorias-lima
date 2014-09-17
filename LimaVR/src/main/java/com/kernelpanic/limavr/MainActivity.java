@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.vrtoolkit.cardboard.samples.treasurehunt;
+package com.kernelpanic.limavr;
 
 import android.content.Context;
 import android.opengl.GLES20;
@@ -23,7 +23,6 @@ import android.os.Bundle;
 import android.os.Vibrator;
 import android.util.Log;
 import com.google.vrtoolkit.cardboard.*;
-
 import javax.microedition.khronos.egl.EGLConfig;
 import java.io.BufferedReader;
 import java.io.IOException;
