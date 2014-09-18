@@ -81,6 +81,8 @@ public class MainActivity extends CardboardActivity implements CardboardView.Ste
 
     private float[] mModelFloor;
 
+    private String[] mMsn;
+
     private int mScore = 0;
     private float mObjectDistance = 12f;
     private float mFloorDepth = 20f;
@@ -144,6 +146,14 @@ public class MainActivity extends CardboardActivity implements CardboardView.Ste
         CardboardView cardboardView = (CardboardView) findViewById(R.id.cardboard_view);
         cardboardView.setRenderer(this);
         setCardboardView(cardboardView);
+
+        mMsn = new String[5];
+        mMsn[0]="Esta es la Plaza Mayor de Lima...";
+        mMsn[1]="Aquí se declaro la Independencia del Perú...";
+        mMsn[2]="En 1622 se culminó la construcción de la Catedral de Lima";
+        mMsn[3]="Francisco Pizarro fundó la ciudad de Lima el 18 de enero de 1535...";
+        mMsn[4]="Es el principal espacio público de la ciudad...";
+
 
         mModelCube = new float[16];
         mCamera = new float[16];
@@ -401,11 +411,14 @@ public class MainActivity extends CardboardActivity implements CardboardView.Ste
         Log.i(TAG, "onCardboardTrigger");
 
         if (isLookingAtObject()) {
+            mOverlayView.show3DToast(mMsn[mScore]);
             mScore++;
-            mOverlayView.show3DToast("Found it! Look around for another one.\nScore = " + mScore);
-            hideObject();
+            if(mScore==5){
+                mScore=0;
+            }
+            //hideObject();
         } else {
-            mOverlayView.show3DToast("Look around to find the object!");
+            mOverlayView.show3DToast("Busca el cubo");
         }
         // Always give user feedback
         mVibrator.vibrate(50);
