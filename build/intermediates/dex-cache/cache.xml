@@ -2,16 +2,16 @@
 <pre-dex-items>
 
     <item
-        dex="/Users/hacksy/Proyectos/Personales/limavr/LimaVR/build/intermediates/pre-dexed/debug/support-v4-19.1.0-1279d9bca0e66876649b1efe10988d01464f7954.jar"
-        jar="/Users/hacksy/libs/android-sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
-    <item
-        dex="/Users/hacksy/Proyectos/Personales/limavr/LimaVR/build/intermediates/pre-dexed/debug/cardboard-7348c4b25ff37c82cc3796fed07af4881dd6c722.jar"
-        jar="/Users/hacksy/Proyectos/Personales/limavr/LimaVR/libs/cardboard.jar"
+        dex="/home/alvardev/Desktop/AppPeru/mismemorias-lima/LimaVR/build/intermediates/pre-dexed/debug/cardboard-bc186528f5e403929d2b891b9e8b9f482bb591fa.jar"
+        jar="/home/alvardev/Desktop/AppPeru/mismemorias-lima/LimaVR/libs/cardboard.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="7800973ef52ae629978ad974370b6a0b9bc79e25"/>
+    <item
+        dex="/home/alvardev/Desktop/AppPeru/mismemorias-lima/LimaVR/build/intermediates/pre-dexed/debug/support-v4-19.1.0-b60f10bad1e35da6e3911e49674d1b4d7980b899.jar"
+        jar="/home/alvardev/android-studio/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
 
 </pre-dex-items>
