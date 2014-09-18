@@ -416,7 +416,7 @@ public class MainActivity extends CardboardActivity implements CardboardView.Ste
             if(mScore==5){
                 mScore=0;
             }
-            //hideObject();
+            hideObject();
         } else {
             mOverlayView.show3DToast("Busca el cubo");
         }
